@@ -6,6 +6,12 @@ This script extracts a abi json file from solidity code.
 
 1. prepare `contract.sol` file on `lib` directory.
 
+```solidity
+pragma solidity >=0.6.2;
+
+...
+```
+
 2. change contractName
 
 ```js
